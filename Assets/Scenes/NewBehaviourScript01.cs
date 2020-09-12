@@ -26,5 +26,6 @@ public class NewBehaviourScript01 : MonoBehaviour
     private void Func2()
     {
         int i = 5;
+        i =+1;
     }
 }
