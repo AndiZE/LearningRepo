@@ -18,4 +18,9 @@ public class NewBehaviourScript01 : MonoBehaviour
         testfloat1 += Time.deltaTime;
         testbool1 = true;
     }
+
+    private void Func2()
+    {
+
+    }
 }
