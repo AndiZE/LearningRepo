@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript01 : MonoBehaviour
 {
+    public float testfloat1;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,6 @@ public class NewBehaviourScript01 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        testfloat1 += Time.deltaTime;
     }
 }
