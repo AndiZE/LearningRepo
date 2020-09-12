@@ -10,6 +10,7 @@ public class NewBehaviourScript01 : MonoBehaviour
     void Start()
     {
         testbool1 = false;
+
     }
 
     // Update is called once per frame
@@ -18,7 +19,10 @@ public class NewBehaviourScript01 : MonoBehaviour
         testfloat1 += Time.deltaTime;
         testbool1 = true;
     }
+    public void Func1()
+    {
 
+    }
     private void Func2()
     {
 
